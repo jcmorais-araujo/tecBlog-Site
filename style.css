@@ -1,0 +1,110 @@
+/* Limpar as formatações padrões */
+
+
+/* O * quer dizer toda formatação */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+
+/*
+****Layout****
+*/
+
+#geral {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.cabecalho,
+.menu {
+    padding: 10px;
+}
+
+
+/*
+****Formatação Menu****
+*/
+
+a:link,
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/*
+****Formatações em geral****
+*/
+
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+.branco {
+    color: white;
+}
+
+
+/* Área de postagem */
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.rodape {
+    text-align: center;
+    clear: both;
+    /* sair da área do float*/
+    background-color: #ccc;
+    padding: 15px;
+}
+
+
+/* Formatar postagem*/
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.text-postagem {
+    text-align: justify;
+}
+
+.link-postagem {
+    color: #4e4e4e;
+}
